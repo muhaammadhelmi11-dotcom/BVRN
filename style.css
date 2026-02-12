@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.cta {
+  margin-top: 20px;
+  color: black;
+  background: white;
+  padding: 15px;
+  width: fit-content;
+  text-decoration: none;
+}
